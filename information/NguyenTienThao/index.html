@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <!-- Phần đầu -->
+    <head>
+        <title>Trang thông tin cá nhân</title>
+        <meta charset="utf-8">
+        <style>
+            h1 {
+                /* chỉnh màu và site chữ */
+                 color: rgb(212, 0, 255);
+                font-size: 70px; 
+                /* di chuyển vị trí tương đối */
+                position: relative;  
+                bottom: 50px;  
+            }
+            h4{
+                color: rgb(212, 0, 255);
+            }
+            .k3 {
+                position: relative;
+                left: 150px;  
+            }    
+            .k4 {
+                position: relative;
+                left: 200px;  
+            }       
+            .k2 {
+                position: relative;
+                left: 100px;  
+            }       
+            html {
+                color: rgb(244, 245, 244);              
+            }
+            html, body {
+                /* bo ngoài cùng */
+                margin: 0;
+            }
+            .header {
+                /* ảnh background và kích thước */
+                width: 100%;
+                height: 120vh;
+                background-image: url(https://phunugioi.com/wp-content/uploads/2020/02/mau-background-dep.jpg);
+            }
+            .k3:hover{
+                /* thay đổi khi chạm */
+                color: aquamarine;
+                font-size: 25px;
+            }
+            .k4:hover{
+                color: aquamarine;
+                font-size: 25px;
+            }
+            button:active{
+                /* thay đổi khi click */
+                color: aquamarine;
+                font-size: 20px;
+            }
+            .k1 {
+                /* kích thước, màu sắc, vị trí chạy theo cuộn trang */
+                width: 100%;
+                height: 80px;
+                position: fixed;
+                background-color: rgb(236, 194, 116);
+                top: 0px;
+            }
+            .k5 {
+                width: 100%;
+                height: 80px;
+                position: fixed;
+                background-color: rgb(236, 194, 116);
+                bottom: 0px;
+            }
+            .header {
+                position: relative;
+                top: 80px; 
+            }
+        </style>
+    </head>
+    <!-- Phần thân -->
+    <body>
+        <div class="header">
+            <div class="k2">
+                <img src="https://scontent.fhph1-3.fna.fbcdn.net/v/t1.6435-9/s851x315/50091177_745682735813394_6683909289507028992_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=da31f3&_nc_ohc=uvpjdaQ2FZUAX_Lgd11&_nc_ht=scontent.fhph1-3.fna&oh=62f43ef625cf69a843a43e18350e3613&oe=61C2ED23" alt="ảnh cá nhân"> <br>
+                <b>
+                    Ảnh cầm đàn mặc dù không biết đánh đàn :))
+                </b>
+            </div>
+            <div class="k3">
+                <h2>
+                    Thông tin sinh viên:
+                </h2>
+                    <ul>
+                        <!-- tạo danh sách -->
+                        <li>Họ tên: Nguyễn Tiến Thao</li>
+                        <li>Ngày sinh: 14/01/2001</li>
+                        <li>Học viện Công nghệ Bưu chính Viễn thông</li>
+                        <li>Lớp: D19CQVT01_B</li>
+                        <li>Mã sinh viên: B19DCVT377</li>
+                    </ul>
+            </div>
+            <div class="k4">
+                <h3>
+                    Thông tin liên hệ:
+                </h3>
+                <table>
+                    <!-- tạo bảng -->
+                    <thead>
+                        <!-- cột -->
+                        <th>Email</th>
+                        <th>Số điện thoại</th>
+                        <th>Địa chỉ</th>
+                        <th>Facebook</th>
+                    </thead>
+
+                    <tbody>
+                        <!-- dữ liệu -->
+                        <td>nguyentienthao2001@gmail.com</td>
+                        <td>0357882206</td>
+                        <td>Hà Đông - Hà Nội</td>
+                        <td>  <a href="https://www.facebook.com/moons.darks.1">Tới trang Facebook của Thao</a></td>
+                    </tbody>
+                </table>
+            </div>
+            <div class="k5">
+                <h4>
+                    Bạn muốn hỏi Thao điều gì?
+                </h4>
+                <input type="text" placeholder="Điền câu hỏi">
+                <button>
+                    <!-- nút ấn -->
+                    Gửi câu hỏi đến Thao
+                </button>
+            </div>
+            <div class="k1">
+                <h1>Welcome to Thao's personal page! (>’o’)> </h1>
+            </div>
+        </div>
+    </body>
+</html>

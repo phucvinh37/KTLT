@@ -1,0 +1,69 @@
+h1 {
+    /* chỉnh màu và site chữ */
+     color: rgb(212, 0, 255);
+    font-size: 70px; 
+    /* di chuyển vị trí tương đối */
+    position: relative;  
+    bottom: 50px;  
+}
+h4{
+    color: rgb(212, 0, 255);
+}
+.k3 {
+    position: relative;
+    left: 150px;  
+}    
+.k4 {
+    position: relative;
+    left: 200px;  
+}       
+.k2 {
+    position: relative;
+    left: 100px;  
+}       
+html {
+    color: rgb(244, 245, 244);              
+}
+html, body {
+    /* bo ngoài cùng */
+    margin: 0;
+}
+.header {
+    /* ảnh background và kích thước */
+    width: 100%;
+    height: 120vh;
+    background-image: url(https://phunugioi.com/wp-content/uploads/2020/02/mau-background-dep.jpg);
+}
+.k3:hover{
+    /* thay đổi khi chạm */
+    color: aquamarine;
+    font-size: 25px;
+}
+.k4:hover{
+    color: aquamarine;
+    font-size: 25px;
+}
+button:active{
+    /* thay đổi khi click */
+    color: aquamarine;
+    font-size: 20px;
+}
+.k1 {
+    /* kích thước, màu sắc, vị trí chạy theo cuộn trang */
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: rgb(236, 194, 116);
+    top: 0px;
+}
+.k5 {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: rgb(236, 194, 116);
+    bottom: 0px;
+}
+.header {
+    position: relative;
+    top: 80px; 
+}
